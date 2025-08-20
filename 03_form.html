@@ -5,11 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>넌 이미 죽어있다</title>
   </head>
+  <style></style>
   <body>
-    <img
-      width="300"
-      height="220"
-      src="https://i.namu.wiki/i/nbUGT3_U-nSOnM0UteuL7lJXTsLrvfH-32pIIcsRle48XsDGkW8kTFxikJXAaGB6RyOH0TeMhglmd9tKxT1UYGoYXYazBIC5mDNPaBqDUQorwmNnGB7dDs9lwh3J-Xffw3kiUNZZbvUsEVcuHdv_FA.webp"
-    />
+    <p>
+        <ul>
+            <li>
+                url
+            </li>
+            <li>
+                url 뒤
+            </li>
+        </ul>
+    </p>
+    <p><form action="https://search.naver.com/search.naver"
+        method="get">
+        <label><strong>검색창 : </strong>
+            <input type="text" name="query" placeholder="이거 네이버 검색이야">
+        </label>
+        <button>검색</button>
+    </form></p>
+    <p><form action="https://search.naver.com/search.naver"
+        method="get">
+        <label>
+            <strong>검색창 : </strong>
+            <select name="query">
+                <option value="JAVA">스타크래프트</option>
+                <option value="SQL">디아블로</option>
+                <option value="HTML">오버워치</option>
+            </select>
+        </label>
+        <button>검색</button>
+    </form></p>
+    <p><form action="https://search.naver.com/search.naver"
+        method="get">
+        <label>
+            <strong>검색창 : </strong>
+            <label><input type="radio" name="query" value="굴단">굴단</label>
+            <label><input type="radio" name="query" value="스랄">스랄</label>
+            <label><input type="radio" name="query" value="가로쉬">가로쉬</label>
+        </label>
+        <button>검색</button>
+    </form></p>
+    </form>
+    <form action="https://search.naver.com/search.naver"
+        method="get">
+        <label>
+            검색어 :
+            <input type="text" name="query" list="keywords">
+            <datalist id="keywords">
+                <option value="홍">
+                <option value="청">
+                <option value="흑">
+            </datalist>
+        </label>
+        <button>검색</button>
+    </form>
   </body>
 </html>
